@@ -26,7 +26,9 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
   "include": [
     "next-env.d.ts",
@@ -36,7 +38,8 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     ".next\\dev/types/**/*.ts",
-    ".next\\dev/types/**/*.ts"
+    ".next\\dev/types/**/*.ts",
+    "lib/generated/prisma/**/*.ts"
   ],
   "exclude": [
     "node_modules"
