@@ -309,7 +309,7 @@ const TemplateSelectionModal = ({
 
                         <div className="flex gap-4">
                           <div
-                            className="relative w-16 h-16 flex-shrink-0 flex items-center justify-center rounded-full"
+                            className="relative w-16 h-16 shrink-0 flex items-center justify-center rounded-full"
                             style={{ backgroundColor: `${template.color}15` }}
                           >
                             <Image
